@@ -1,0 +1,104 @@
+#pant1 {
+  border: 2px solid black;
+  width: 370px;
+  height: 650px;
+  margin-left: 20px;
+  background-color: green;
+}
+
+
+#eq1 {
+  display: block;
+  width: 60%;
+  height: 35px;
+  margin-top: 25%;
+  margin-left: 20%;
+  background-color: green;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+#eq1::placeholder {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+}
+
+#eq2 {
+  display: block;
+  width: 60%;
+  height: 35px;
+  margin-top: 15%;
+  margin-left: 20%;
+  background-color: green;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+#eq2::placeholder {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+}
+
+#a24 {
+  margin-top: 25%;
+  margin-left: 20%;
+  margin-right: 1%;
+  width: 30%;
+  height: 30px;
+  background-color: green;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+#a30 {
+  width: 30%;;
+  height: 30px;
+  margin-left: 1%;
+  background-color: green;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+#inicio {
+  display: block;
+  margin-top: 35%;
+  margin-left: 35%;
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
+.oculto {
+    display: none;
+    visibility: hidden;
+}
