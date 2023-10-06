@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div class="calculadora">
+        <div class="visor">
+            <input type="text" id="pantalla">
+        </div>
+        <div class="botones">
+            <input type="button" value="7" onclick="agregar(this.value)">
+            <input type="button" value="8" onclick="agregar(this.value)">
+            <input type="button" value="9" onclick="agregar(this.value)">
+            <input type="button" value="/" onclick="operar(this.value)">
+            <br>
+            <input type="button" value="4" onclick="agregar(this.value)">
+            <input type="button" value="5" onclick="agregar(this.value)">
+            <input type="button" value="6" onclick="agregar(this.value)">
+            <input type="button" value="X" onclick="operar(this.value)">
+            <br>
+            <input type="button" value="1" onclick="agregar(this.value)">
+            <input type="button" value="2" onclick="agregar(this.value)">
+            <input type="button" value="3" onclick="agregar(this.value)">
+            <input type="button" value="-" onclick="operar(this.value)">
+            <br>
+            <input type="button" value="0" onclick="agregar(this.value)">
+            <input type="button" value="C" onclick="borrar()">
+            <input type="button" value="=" onclick="resultado()">
+            <input type="button" value="+" onclick="operar(this.value)">
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
